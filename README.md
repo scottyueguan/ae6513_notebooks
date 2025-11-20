@@ -24,7 +24,33 @@ for better package and environment management.
 > ```
 > then close and reopen the terminal.
 
-## 1. Create a Conda Environment
+## 2. Clone or Download the Course Repository
+**Option A**: Clone via Git (recommended)
+In the terminal, run:
+```bash
+git clone https://github.com/scottyueguan/ae6513_notebooks.git
+```
+
+Then move into the directory:
+```bash
+cd ae6513_notebooks
+```
+
+**Option B**: Download ZIP
+
+1. Visit the repository:
+https://github.com/scottyueguan/ae6513_notebooks
+
+2. Click Code → Download ZIP
+
+3. Extract the ZIP
+
+4. Navigate to the extracted folder in terminal, e.g.:
+    ```
+    cd ~/put_in_your_path/ae6513_notebooks
+    ```
+
+## 3. Create a Conda Environment
 
 Create a new environment with Python 3.11:
 
@@ -37,7 +63,7 @@ Activate the environment:
 conda activate ae6513
 ```
 
-## 2. Install Required Packages
+## 4. Install Required Packages
 
 Install dependencies listed in `requirements.txt`:
 ```bash
@@ -48,7 +74,7 @@ Install Jupyter:
 conda install jupyter
 ```
 
-## 3. Launch Jupyter Notebook
+## 5. Launch Jupyter Notebook
 
 Start the notebook server:
 ```bash
@@ -57,7 +83,7 @@ jupyter notebook
 This should open a browser window where you can select and run course notebooks.
 For Monday's demo, open `nash_demo.ipynb`.
 
-## 4. Verify Installation
+## 6. Verify Installation
 In the Jupyter notebook, you can start from the first cell and press `Shift + Enter` to run each cell sequentially to ensure everything is set up correctly.
 
 At the end of the notebook, you should see an animation rendering the Nash policies of a pursuer trying to capture an evader.
