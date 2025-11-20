@@ -50,7 +50,7 @@ https://github.com/scottyueguan/ae6513_notebooks
     cd ~/put_in_your_path/ae6513_notebooks
     ```
 
-## 3. Create a Conda Environment
+## 3. Create a Conda Environment and Install Required Packages
 
 Create a new environment with Python 3.11:
 
@@ -63,8 +63,6 @@ Activate the environment:
 conda activate ae6513
 ```
 
-## 4. Install Required Packages
-
 Install dependencies listed in `requirements.txt`:
 ```bash
 pip install -r requirements.txt
@@ -73,6 +71,10 @@ Install Jupyter:
 ```bash
 conda install jupyter
 ```
+
+Remember, you only need to create the environment and install the packages once. 
+Next time when you want to run the Jupyter notebooks, just activate the environment with the command above and launch Jupyter Notebook.
+
 
 ## 5. Launch Jupyter Notebook
 
