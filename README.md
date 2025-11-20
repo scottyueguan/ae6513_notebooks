@@ -81,7 +81,7 @@ Start the notebook server:
 jupyter notebook
 ```
 This should open a browser window where you can select and run course notebooks.
-For Monday's demo, open `nash_demo.ipynb`.
+For Monday's demo, open `game_example/nash_demo.ipynb`.
 
 ## 6. Verify Installation
 In the Jupyter notebook, you can start from the first cell and press `Shift + Enter` to run each cell sequentially to ensure everything is set up correctly.
